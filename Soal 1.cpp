@@ -26,7 +26,7 @@ string check(string R){
 	char j = '2';
 
 	string t = "ente";
-	string u = "preman brengsek";
+	string u = "daffa";
     string q = "apa"; 
     string w = "apa";
 
