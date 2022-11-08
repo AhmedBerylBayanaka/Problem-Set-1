@@ -1,12 +1,12 @@
 #include <iostream>
-#include <string>
+
 #include <stack>
 
 using namespace std;
 
 
 
-string calc(string R){
+string check(string R){
     stack <char> c; //closed bracket
     stack <char> o; //open bracket
     stack <char> kc; //closed square bracket
@@ -101,13 +101,13 @@ string calc(string R){
             x = R[i];
             c.push(x);
         }
-    }*/    
+    }*/   
 
 
 
 int main(){
 
     string R = "begin end () [] ][ {}";
-    cout << calc(R);
+    cout << check(R);
     return 0;
 }
